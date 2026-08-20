@@ -34,8 +34,16 @@ Each problem is stored as a separate Python file.
 Random-LeetCode-Problems/
 │
 ├── 1.Two-Sum.py
-├── 2.Add-Two-Numbers.py
-├── 5.Longest-Palindromic-Substring.py
-├── 6.Zigzag-Conversion.py
-├── ...
+├── 7.Reverse-Integer.py
+├── 9.Palindrome-Number.py
+├── 35.Search-Insert-Position.py
+├── 58.Length-of-Last-Word.py
+├── 125.Valid-Palindrome.py
+├── 412.Fizz-Buzz.py
+│── ...
+│
+│── bla...bla...bla...
+
+│── ...
+│
 └── README.md
