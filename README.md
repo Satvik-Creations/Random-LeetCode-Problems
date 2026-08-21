@@ -36,6 +36,7 @@ Random-LeetCode-Problems/
 ├── 1.Two-Sum.py
 ├── 7.Reverse-Integer.py
 ├── 9.Palindrome-Number.py
+├── 20.Valid-Parentheses.py
 ├── 35.Search-Insert-Position.py
 ├── 58.Length-of-Last-Word.py
 ├── 125.Valid-Palindrome.py
