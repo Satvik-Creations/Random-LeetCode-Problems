@@ -9,9 +9,9 @@ public:
     }
 };
 
-int main() {
-    Solution sol;
-    double result = sol.myPow(2.0,3);
-    cout << result << endl;
-    return 0;
-}
+// int main() {
+//     Solution sol;
+//     double result = sol.myPow(2.0,3);
+//     cout << result << endl;
+//     return 0;
+// }
