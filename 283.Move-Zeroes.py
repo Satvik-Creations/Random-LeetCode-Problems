@@ -5,16 +5,7 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        count = 0
-
-        for i in nums:
-            if i == 0:
-                count += 1
-
-        for j in range(count):
-            nums.remove(0)
-
-        for k in range(count):
-            nums.append(0)
+        count = nums.count(0)
+        nums[:] = [x for x in nums if x!=0] + [0] * count
 
 # print(Solution().moveZeroes([0, 1, 0, 3, 12]))  # Output: [1, 3, 12, 0, 0]
