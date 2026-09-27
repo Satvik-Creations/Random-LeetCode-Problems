@@ -2,6 +2,10 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 
+/*
+ * For Now I have used the Brute Force Method with time complexity for worst case as O(n²), will optimize the code in future!
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
