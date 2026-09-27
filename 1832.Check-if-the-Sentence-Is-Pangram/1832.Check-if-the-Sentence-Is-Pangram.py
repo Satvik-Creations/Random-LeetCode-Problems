@@ -6,6 +6,6 @@ class Solution:
 
         return (p.issubset(x) == True)
 
-
+# Test Inputs
 print(Solution().checkIfPangram("thequickbrownfoxjumpsoverthelazydog"))
 print(Solution().checkIfPangram("oneofthebestthingsaboutthisdudeisthathecodesverywell"))
