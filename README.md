@@ -15,7 +15,7 @@ There is no particular order here — just random problems, random difficulty, a
 
 The goal is simple:
 
-> Solve more problems. Get better at DSA. Repeat.
+> Solve more problems. Get better at DSA & Problem Solving... Repeat...!
 
 I'm using this repository to keep track of my LeetCode practice and gradually improve my coding and problem-solving abilities.
 
