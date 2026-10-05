@@ -1,7 +1,10 @@
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
-        found = haystack.find(needle)
-        return found
+        for i in range(len(haystack) + 1 - len(needle)):
+            if haystack[i:i+len((needle))] == needle:
+                return i
+        return -1
+        
 
-# print(Solution().strStr("Hello World", "World"))
-# print(Solution().strStr("Pneumonoultramicroscopicsilicovolcanoconiosis", "silicovolcanoconiosis"))
+print(Solution().strStr("Hello World", "World"))
+print(Solution().strStr("Pneumonoultramicroscopicsilicovolcanoconiosis", "silicovolcanoconiosis"))
