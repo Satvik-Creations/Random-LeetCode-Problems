@@ -6,5 +6,5 @@ class Solution:
         return -1
         
 
-print(Solution().strStr("Hello World", "World"))
-print(Solution().strStr("Pneumonoultramicroscopicsilicovolcanoconiosis", "silicovolcanoconiosis"))
+# print(Solution().strStr("Hello World", "World"))
+# print(Solution().strStr("Pneumonoultramicroscopicsilicovolcanoconiosis", "silicovolcanoconiosis"))
