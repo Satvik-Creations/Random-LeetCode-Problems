@@ -23,4 +23,5 @@ class Solution:
         return l
 
 # print(Solution().lengthOfLastWord("LeetCode is love")) #4
-# print(Solution().lengthOfLastWord("Hello World")) #5    
+# print(Solution().lengthOfLastWord("Hello World")) #5
+
