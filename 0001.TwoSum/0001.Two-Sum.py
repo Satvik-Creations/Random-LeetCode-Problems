@@ -1,6 +1,8 @@
 
 #  * For Now I have used the Brute Force Method with time complexity for worst case as O(n²), will optimize the code in future!
 
+# Solution 1 Brute Force Approach! with a Time Complexity of O(n²).
+
 from typing import List
 
 class Solution:
@@ -13,3 +15,8 @@ class Solution:
                     ...
 
 # print(Solution().twoSum([2,7,11,15], 9))
+
+
+# Solution 2 (Using Hash Map --> Will solve later!)
+
+...
