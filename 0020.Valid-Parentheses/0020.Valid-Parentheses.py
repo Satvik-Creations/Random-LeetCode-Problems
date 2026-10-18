@@ -1,3 +1,41 @@
+"""
+Solution 1: 
+Stack Approach, General/Preferred way of solving this question!
+
+"""
+
+# Uses Stack Data Structure and a Dictionary based matching for Valid Parenthesis!
+
+class Solution:
+    def isValid(self, s: str) -> bool:
+        stack = []
+
+        matching = {
+            ")":"(",
+            "]":"[",
+            "}":"{",
+        }
+
+        for bracket in s:
+            if bracket in "([{":
+                stack.append(bracket)
+            else:
+                if not stack:
+                    return False
+                
+                if stack[-1] != matching[bracket]:
+                    return False
+                stack.pop()
+        
+        return len(stack) == 0
+
+
+"""
+Solution 2:
+Without stack! [Generally not a preferred way of solving this question!]
+
+"""
+
 class Solution:
     def isValid(self, s: str) -> bool:
         br1 = "({["
